@@ -19,3 +19,6 @@ endpoint-data
 
 # OS
 .DS_Store
+
+assessment.md
+HEROKU_DEPLOYMENT_GUIDE.md
