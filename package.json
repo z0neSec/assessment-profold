@@ -10,7 +10,7 @@
   },
   "scripts": {
     "test": "set USE_MOCK_MODEL=1 && mocha --recursive --require dotenv/config",
-    "prepare": "husky",
+    "prepare": "[ -z \"$HUSKY\" ] && husky || true",
     "commitlint": "commitlint --edit",
     "sync-envs": "node sync-env-files"
   },
